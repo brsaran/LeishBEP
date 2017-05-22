@@ -47,7 +47,7 @@ for($i=0;$i<@ARGV;$i++){
 }
 if($inFile eq ''){print "-i: cannot be null; Input file missing ! Exiting !\n"; `rm $outFile`; exit;}
 if($mode eq ''){print "-m: cannot be null ! use 'pro' or 'pep' ! Exiting !\n"; `rm $outFile`; exit;}
-if($outFile eq ''){print "\n-o: empty ! saving results to file LBEEP_out\n"; $outFile = "LBEEP_out";unless(open(OUTFILE,">$outFile")){die "Invalid Output file name or No permission to write the file ! Exiting";}}
+if($outFile eq ''){print "\n-o: empty ! saving results to file LLBEP_out\n"; $outFile = "LLBEP_out";unless(open(OUTFILE,">$outFile")){die "Invalid Output file name or No permission to write the file ! Exiting";}}
 if($MODEL eq ''){$MODEL = 'B';}
 if($Thresh eq ''){print "-t: Threshold set to 0.6\n"; $Thresh = 0.6;}
 
