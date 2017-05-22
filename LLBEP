@@ -119,4 +119,3 @@ if($mode eq "pep"){ #If peptide mode is opted
 ############################# Protein Mode Begins ##########################
 $j=0; #Reinitializing $j
 
-
